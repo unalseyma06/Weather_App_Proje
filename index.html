@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <section class="weather-banner">
+        <div class="weather-container">
+            <center>
+                <img src="https://avatars.githubusercontent.com/u/159284868?s=400&u=1fde3dd84085e504e9094ced44e2084ff2c04f5d&v=4"
+                    alt="EYPES logo" class="weather-logo" id="logo" />
+                <h1 class="weather-heading">
+                    Weather App</h1>
+            </center>
+            <form>
+                <input type="text" placeholder="Search for a city" autofocus>
+                <button type="submit">SEARCH</button>
+                <span class="weather-msg"></span>
+            </form>
+        </div>
+    </section>
+    <section class="weather-results">
+        <div class="weather-container">
+            <ul class="weather-cities">
+            </ul>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="footer-container">
+            <small>EYPES Frontend Team</a>
+            </small>
+        </div>
+    </footer>
+    <script src="weather.js"></script>
+</body>
+
+</html>
